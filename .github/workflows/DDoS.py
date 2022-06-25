@@ -4,18 +4,12 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 title = 'x2dat'
 
 print("                     --------------------")
-print("                     |   x2dat | v1.0   |")
+print("                     |   x2dat | v2.2   |")
 print("                     --------------------")
 time.sleep(1.3)
-print("▔▔▔▔▔▔▔▔▔▔▔╲
-▕╮╭┻┻╮╭┻┻╮╭▕╮╲
-▕╯┃╭╮┃┃╭╮┃╰▕╯╭▏
-▕╭┻┻┻┛┗┻┻┛    ▕    ╰▏
-▕╰━━━┓┈┈┈╭╮▕╭╮▏
-▕╭╮╰┳┳┳┳╯╰╯▕╰╯▏
-▕╰╯┈┗┛┗┛┈╭╮▕╮┈▏")
+print("[wish good luck to your enemies]")
 time.sleep(0.2)
-
+print("------------------------------------")
 ip = input("| Enter Target IP: ")
 port = int(input("| Enter Target Port: "))
 sleep = float(input("| Sleep: "))
